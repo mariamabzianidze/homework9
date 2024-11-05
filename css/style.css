@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.container {
+  width: min(100%, 1440px);
+  margin: auto;
+}
+/* header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 82px;
+  background-color: #fa793c;
+}
+.burger {
+  display: none;
+}
+.header_a1 {
+  display: flex;
+  column-gap: 14px;
+  justify-content: center;
+  align-items: center;
+}
+.header_span {
+  font-family: Pridi;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.9px;
+  color: #ffffff;
+}
+.header_ul {
+  display: flex;
+  column-gap: 32px;
+}
+.header_list_link {
+  font-family: ABeeZee;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+}
+.header_div {
+  display: flex;
+  column-gap: 40px;
+}
+.fa-circle-user {
+  font-size: 24px;
+  color: #ffffff;
+}
+/* section1 */
+.section1 {
+  height: 550px;
+  background-image: url("../images/cover.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 0 82px;
+}
+
+.section1_h2 {
+  font-family: Kanit;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 75px;
+  text-align: center;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section1_p {
+  font-family: Kanit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* section2 */
+.section2 {
+  padding: 72px 82px;
+  background-color: #fa793c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 34px;
+}
+.section2_H3 {
+  font-family: Kanit;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+  color: #ffffff;
+}
+.section2_h3 {
+  font-family: Kanit;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #ffffff;
+}
+.section2_p {
+  font-family: Kanit;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 8px;
+  color: #d9d9d9;
+}
+.section2_image {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* section3 */
+.section3 {
+  padding: 72px 82px;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 34px;
+}
+.section3_h3 {
+  font-family: Kanit;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 45px;
+  text-align: center;
+  color: #fa793c;
+}
+.section3_section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+}
+.section3_article {
+  width: 412px;
+  padding: 16px;
+  border-radius: 8px;
+  border: solid 2px #fa793c;
+}
+.section3_image_cont {
+  width: 100%;
+  height: 224px;
+  border-radius: 8px 8px 0 0;
+}
+.section3_h5 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  color: #fa793c;
+}
+.shopping_basket {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.section3_price {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #b53b1b;
+}
+.basket_button {
+  border: none;
+  width: 40px;
+  height: 40px;
+  left: 340px;
+  padding: 6.67px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #fa793c;
+}
+.fa-cart-plus {
+  font-size: 27px;
+  color: #ffffff;
+}
+/* footer */
+footer {
+  display: flex;
+  padding: 34.17px 633px;
+  background-color: #fa793c;
+}
+.footer_link {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+}
+.footer_p {
+  color: #ffffff;
+  font-family: Pridi;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.9px;
+}
